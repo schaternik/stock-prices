@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 desc 'Check stock price'
 task :check_price, %i[ticker price] do |_task_name, args|
   require_relative './system/boot'
